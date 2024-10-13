@@ -4,4 +4,5 @@ the python implementation of information network skeleton mining algorithm
  The work focuses on efficiently and automatically extracting significant structures from large-scale, multi-diemensional and multi-perspective information networks. We evaluated our approach using node and edge pruning strategies on datasets from Stanford's website.
  The main programme constitutes of four parts. First, we create the tables for the upcoming process. Second, preprocess the datasets and inserts the key information into database. Third, construct the graph cube and complete the process of rolling up and drilling down operations. Fourth, discover the significant subspace from different dimensions of the graph cube and value the mining results.
  Attention that Mysql relational database is needed and connected to Python programm.
-         w 
+         
+    
