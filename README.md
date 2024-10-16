@@ -7,4 +7,4 @@ the python implementation of information network skeleton mining algorithm
          
     
 ![e6a498f0083254eab2055ce3ba20bab](https://github.com/user-attachments/assets/0955b6a2-45fb-4369-a36c-ca0caadafd51)
-The above figure is the overall process of our algorithm.
+The above figure is the overall process of our algorith.
