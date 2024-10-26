@@ -124,7 +124,7 @@ def k_means_clustering(G, k, max_iters=100):
 
     n = len(adjacency_matrix)
     centroids = random.sample(nodes, k)  # 随机选择初始中心
-    print(f"Initial centroids: {centroids}")
+    
 
     for iteration in range(max_iters):
         clusters = {i: [] for i in range(k)}
@@ -146,11 +146,11 @@ def k_means_clustering(G, k, max_iters=100):
                 # 如果某个簇为空，随机选择一个节点作为新的质心
                 new_centroids[i] = random.choice(nodes)
 
-        print(f"Clusters: {clusters}")
-        print(f"New centroids: {new_centroids}")
+    
+        
 
         if new_centroids == centroids:
-            print("Convergence reached.")
+
             break
         centroids = new_centroids
 
